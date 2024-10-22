@@ -115,11 +115,10 @@ print(f"METEOR Score: {metrics['meteor']}")
 ## 📁 Dataset Information
 
 ### IIT-B Hindi-English Corpus
-- 1 million sentence pairs
+- 18 lakh sentence pairs
 - General domain text
 - Source: IIT Bombay website
-- Subset of 1,000 sentences used for evaluation
-
+- 
 ### Bhagavad Gita Dataset
 - 701 verses
 - Contains Sanskrit original, romanized transliteration, Hindi and English translations
@@ -127,25 +126,29 @@ print(f"METEOR Score: {metrics['meteor']}")
 
 ## 🏗️ Project Structure
 ```
-├── models/
-│   ├── mbart.py
-│   ├── m2m.py
-│   ├── nllb.py
-│   └── google_translate.py
-├── evaluation/
-│   ├── metrics.py
-│   ├── bleu.py
-│   ├── sts.py
-│   ├── chrf.py
-│   └── meteor.py
-├── data/
-│   ├── iitb_corpus/
-│   └── bhagavad_gita/
-├── notebooks/
-│   ├── model_comparison.ipynb
-│   └── error_analysis.ipynb
-├── requirements.txt
-└── README.md
+.
+├── bhagavad_gita/
+│   ├── english_to_hindi/
+│   │   ├── mbart.py
+│   │   ├── m2m.py
+│   │   ├── nllb.py
+│   │   └── google_translate.py
+│   └── hindi_to_english/
+│       ├── mbart.py
+│       ├── m2m.py
+│       ├── nllb.py
+│       └── google_translate.py
+└── iitb_corpus/
+    ├── english_to_hindi/
+    │   ├── mbart.py
+    │   ├── m2m.py
+    │   ├── nllb.py
+    │   └── google_translate.py
+    └── hindi_to_english/
+        ├── mbart.py
+        ├── m2m.py
+        ├── nllb.py
+        └── google_translate.py
 ```
 
 ## 📝 Key Conclusions
