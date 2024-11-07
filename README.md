@@ -2,7 +2,7 @@
 
 # Serverless Language Translation Models Comparison
 
-A comprehensive comparison of state-of-the-art language translation models (mBART-50, M2M-100, NLLB-200, and Google Translate) for Hindi-English translation using Hugging Face's cloud architecture.
+A comprehensive comparison of state-of-the-art language translation models (mBART-50, M2M-100, NLLB-200, Google Translate and Indiac Trans) for English-Hindi and Hindi-English translation using Hugging Face's cloud architecture.
 
 ## 📊 Key Findings
 
